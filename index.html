@@ -1,0 +1,55 @@
+<head>
+
+    <body>
+        <main>
+
+<link rel="stylesheet" href="styling.css">
+
+<!-- link to js -->
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.css">
+
+<br class="container-fluid px-1 px-sm-5 mx-auto">
+    <br class="row d-flex justify-content-sm-center px-2">
+      <br autocomplete="off">
+        <br class="form-group row">
+
+
+<br onsubmit="return false;">
+<form>
+        <h1>User Registration Form</h1>
+        <style>
+            div {
+              margin-bottom: 10px;
+            }
+            label {
+              display: inline-block;
+              width: 150px;
+              text-align: right;
+            }
+          </style>
+        <div><label for="fname">First Name:</label>
+        <input type="text" id="username" class="datepicker mr-2" placeholder="Your Name" name="Username"><br>
+        </div>
+        <div><label for="lname">Last Name:</label>
+          <input type="text" id="surname" class="datepicker mr-2" placeholder="Your Last Name" name="Surname"><br>
+        </div>
+          <div><label for="mail">Email:</label>
+          <input type="text" id="email" class="datepicker mr-2" placeholder="Email" name="Email"><br>
+        </div>
+          <div><label for="occupation">Occupation:</label>
+          <input type="text" id="occupation" class="datepicker mr-2" placeholder="Occupation" name="Occupation"><br>
+        </div>
+<!--get form values function -->
+          <button type="submit" class="btn-success" onclick="getFormValues()">Submit</button>
+        </div>
+      </form>
+    </div>
+</div> 
+
+</main>
+
+</body>
+</head>
